@@ -7,8 +7,7 @@ A Swift package of reusable SwiftUI components. Requires iOS 17 / macOS 14 (for 
 | Folder | What goes there |
 | --- | --- |
 | `Controls` | Reusable interactive views (pickers, steppers, toggles, input fields). |
-| `Extensions` | Extensions on existing types, mainly `View` conveniences. |
-| `Modifiers` | `ViewModifier` types. Expose each one through a `View` extension in `Extensions`. |
+| `Extensions` | Extensions on existing types, mainly `View` conveniences. A `ViewModifier` lives in the same file as the `View` extension that exposes it. |
 | `Styles` | `ButtonStyle`, `ToggleStyle`, `LabelStyle`, and similar conformances. |
 | `Layouts` | Custom `Layout` containers (flow layouts, radial stacks, equal-width rows). |
 | `Shapes` | `Shape` and `InsettableShape` types. |
